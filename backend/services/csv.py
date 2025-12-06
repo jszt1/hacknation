@@ -1,4 +1,6 @@
 import os
+
+from pathlib import Path
 from backend.core.settings import settings
 
 
@@ -12,4 +14,4 @@ class CsvService:
 
     @staticmethod
     def get_file_path(filename):
-        return os.path.join(settings.PROCESSED_DIR, filename)
+        return settings.PROCESSED_DIR / Path(filename).name
