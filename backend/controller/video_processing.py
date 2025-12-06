@@ -4,7 +4,7 @@ from io import StringIO
 from fastapi import APIRouter, UploadFile, File
 from fastapi.responses import  StreamingResponse
 from pathlib import Path
-from core.settings import Settings
+from backend.core.settings import Settings
 
 
 router = APIRouter()

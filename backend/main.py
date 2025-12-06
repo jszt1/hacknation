@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI
-from controller import csv
+from backend.controller import csv, video_processing
 
 app = FastAPI(title="Video to CSV Processor API")
 app.include_router(csv.router)
