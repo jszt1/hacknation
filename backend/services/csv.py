@@ -1,6 +1,5 @@
-
 import os
-from backend.core.settings import settings
+from core.settings import settings
 
 
 class CsvService:
