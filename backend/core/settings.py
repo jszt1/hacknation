@@ -1,9 +1,9 @@
-
+from pathlib import Path
 import os
 
 class Settings:
-    UPLOAD_DIR = "uploads"
-    PROCESSED_DIR = "csv"
+    UPLOAD_DIR = Path("uploads")
+    PROCESSED_DIR = Path("csv")
 
     def __init__(self):
         os.makedirs(self.UPLOAD_DIR, exist_ok=True)
