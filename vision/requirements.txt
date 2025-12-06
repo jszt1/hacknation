@@ -1,0 +1,16 @@
+opencv-python
+numpy
+torch
+torchvision
+tqdm
+pyyaml
+seaborn
+hydra-core
+lightning
+rich
+einops
+requests
+pandas
+scipy
+matplotlib
+git+https://github.com/MultimediaTechLab/YOLO.git
